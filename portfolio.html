@@ -4,13 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Kevin Chu Web Portfolio</title>
+  <title>Kevin Chu</title>
 </head>
 <body>
-  <header>
-    <h1>Kevin Chu</h1>
-    <p>Software Developer</p>
-  </header>
+  <div class = 'header-container'>
+    <div class = 'header'>
+      <div class = 'logo'>Kevin Chu</div>
+      <p>Software Developer</p>
+    </div>
+    <div class = 'links'>
+      <div class = 'linkedin'><a href="https://www.linkedin.com/in/kevin-chu-b646761bb/">LinkedIn</a></div>
+      <div class = 'github'><a href="https://github.com/chukevh">GitHub</a></div>
+      <div class = 'resume-pdf'><a href="docs/Kevin-Resume-290823.pdf">Resume</a></div>
+    </div>
+  </div>
   <div class = 'menu-container'>
     <div class = 'menu'>
       <a href="#about">About Me</a>
@@ -30,7 +37,11 @@
                     <p>Email: chu.kevin.h@gmail.com</p>
                     <p>Phone: 0435 455 236</p>
                 </div>
-
+                <br>
+                <div class = 'links-image'>
+                  <div class = 'linkedin'><a href="https://www.linkedin.com/in/kevin-chu-b646761bb/"><img src="images/linkedin.png"></a></div>
+                  <div class = 'github'><a href="https://github.com/chukevh"><img src="images/github.png"></a></div>
+                </div>
               </section>
         </ul>
         
@@ -42,13 +53,18 @@
               </section>
               <section id="experience">
                 <h2>Experience</h2>
-                <ul>
+                <ul type = "none">
                   <li>
                     <h3>Project Engineer: Service Desk Analyst</h3>
                     <p><i>Wipro Ltd.</i></p>
                     <p><i>Aug 2022 - Current</i></p>
-                    <p>
-                        <li>Provided first level technical support; acting as first point of contact to end users at AusNet Services offices all over Australia through calls, chats, and emails</li>
+                    <p><ul>
+                      <li>Provided first level technical support; acting as first point of contact to end users at AusNet Services offices all over Australia through calls, chats, and emails</li>
+                      <li>Created and documented all support incidents in the ServiceNow platform ensuring accuracy and up-to-date records</li>
+                      <li>Collaborated with other IT teams to escalate and resolve complex issues in a timely manner</li>
+                      <li>Actively contributed to the development and improvement of service desk processes and procedures</li>
+                    </ul>
+
                     </p>
                   </li>
                   <!-- Add more experience items as needed -->
