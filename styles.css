@@ -9,26 +9,68 @@ body, h1, h2, h3, p {
     font-family: Arial, sans-serif;
   }
 
-  .menu-container {
+  header {
+    text-align: center;
+    padding: 20px;
     color: #fff;
-    background-color: #5995DA;  /* Blue */
+    background-color: black;  /* Blue */
+  }
+
+  /* Menu bar */
+  .menu-container {
+    /* color: #5995DA; */
+    background-color: grey;
     padding: 20px 0;
     display: flex;
     justify-content: center;
   }
-
   .menu {
+    color: #fff;
+    /* background-color: #D6E9FE; */
     display: flex;
     justify-content: space-around;
     /* border: 1px solid #fff;  */
     width: 900px;
   }
-  
-  header {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
+  .menu a {
+    color: #fff;
+    text-decoration:none;
+  }
+  .menu a:visited {
+    color: #fff;
+    text-decoration:none;
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+
+  /* Main resume */
+  .main-container {
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    
+  }
+  .side-bar {
+    background-color: grey;
+    width: 17%;
+    border: 1px solid #fff;    
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    width: 80%;
+    overflow-wrap: break-word;
+    border: 1px solid #fff;    
+  }
+
+  .resume {
+    width: 75%; 
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
   }
   
   nav ul {
@@ -49,3 +91,8 @@ body, h1, h2, h3, p {
     padding: 20px;
   }
   
+  .photo img {
+    width: 80%;
+    height: auto;
+    display:block;
+  }
