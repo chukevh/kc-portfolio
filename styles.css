@@ -18,6 +18,7 @@ html {
 }
 
 .header-container {
+  height: 17vh;
   text-align: center;
   padding: 20px;
   color: black;
@@ -40,6 +41,7 @@ html {
   display: flex;
   justify-content: space-around;
   gap: 2rem;
+  font-size: 1.5rem;
 }
 .linkedin, .github, .resume-pdf {
   font-size: 1.5rem;
@@ -55,33 +57,80 @@ html {
   text-underline-offset: 0.5rem;
 }
 
+section {
+  padding-top: 5vh;
+  height: 95vh;
+  /* margin: 0 10rem; */
+  box-sizing: border-box;
+  min-height: fit-content;
+}
 
-/* Menu bar */
-.menu-container {
-  /* color: #5995DA; */
-  background-color: grey;
-  padding: 20px 0;
+.section-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.photo {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin: auto 0;
+}
+
+.profile-text {
+  align-self: center;
+  text-align: center;
+}
+.profile-text p {
+  font-weight: 600;
+}
+.profile-text-p1 {
+  text-align: center;
+}
+.profile-text-p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.title1 {
+  font-size: 3rem;
+  text-align: center;
+}
+.title2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.links-image {
+  margin-top: 1rem;
+  gap: 1rem;
   display: flex;
   justify-content: center;
 }
-.menu {
-  color: #fff;
-  /* background-color: #D6E9FE; */
+.links-image img {
+  height: 2rem;
+  display: block;
+}
+
+#profile {
   display: flex;
-  justify-content: space-around;
-  /* border: 1px solid #fff;  */
-  width: 900px;
+  justify-content: center;
 }
-.menu a {
-  color: #fff;
-  text-decoration:none;
+
+#about {
+  background-color: black;
 }
-.menu a:visited {
-  color: #fff;
-  text-decoration:none;
-}
-.menu a:hover {
-  text-decoration: underline;
+
+#projects {
+  background-color: black;
 }
 
 /* Main resume */
@@ -105,17 +154,7 @@ html {
   overflow-wrap: break-word;
   border: 1px solid #fff;    
 }
-.links-image {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  border: 1px solid #fff; 
-}
-.links-image img {
-  width: 50%;
-  height: auto;
-  display: block;
-}
+
 
 .resume {
   width: 75%; 
@@ -138,12 +177,44 @@ nav a {
   margin: 0 15px;
 }
 
-section {
-  padding: 20px;
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.photo img {
-  width: 80%;
-  height: auto;
-  display:block;
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
 }
