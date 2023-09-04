@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  .collapsible {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: none;
+    text-align: left;
+    outline: none;
+    width: 100%;
+  }
+
+  .content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+
+  .active {
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<button class="collapsible">Toggle Content</button>
+<div class="content">
+  <p>This is the collapsible content. It will be hidden by default and shown when the button is clicked.</p>
+</div>
+
+<script>
+  const collapsibleButton = document.querySelector('.collapsible');
+  const content = document.querySelector('.content');
+
+  collapsibleButton.addEventListener('click', function() {
+    content.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>

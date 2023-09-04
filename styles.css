@@ -85,10 +85,6 @@ section {
   justify-content: center;
 }
 
-#projects {
-  background-color: black;
-  color: white;
-}
 
 #contact {
   display: flex;
@@ -180,12 +176,85 @@ section {
 }
 
 .section-container {
-  margin: 2rem 10rem;
+  margin: 1rem 10rem;
   gap: 4rem;
   height: 80%;
 }
 
 
+/* Experience Section */
+.experience-container {
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  flex-direction: row; 
+}
+
+.experience-details-container {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: row;   */
+  width: 1000px;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+.details-pic {
+  width: 3rem;
+}
+
+/* Projects Section */
+#projects {
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 0 3rem;
+}
+
+.project-details-container {
+  padding: 1.5rem;
+  flex: 1;
+  border-radius: 2rem;
+  border: white 0.1rem solid;
+  text-align: center;
+  min-width: 0px;
+  /* height: 80%; */
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 80%;
+  height: 80%;
+}
+
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
 
 /* Contact Section */
 .contact-info-upper-container {
