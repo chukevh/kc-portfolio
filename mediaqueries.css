@@ -1,0 +1,8 @@
+@media screen and (max-width: 1200px) {
+    /* section {
+        height: 120vh;
+      } */
+    .experience-details-container {
+        font-size: 0.9rem;
+      }
+}
