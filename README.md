@@ -4,5 +4,11 @@ A live demo of this project can be found at: https://chukevh.github.io/kc-portfo
 Web Portfolio for Desktop
 - Utilizes vanilla HTML, CSS and JavaScript
 
-To-Do List
-- Optimize for mobile version
+# Changelog
+## [1.1] - 16-02-2024
+
+### Added
+
+- Optimized for mobile viewing experience.
+
+
