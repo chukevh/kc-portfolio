@@ -67,10 +67,14 @@
     gap: 0.5rem;
     text-align: center;
   }
-
   .links {
     margin-left: auto;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+  .section-container {
+    padding: 1rem 1.5rem;
   }
   .photo {
     width: auto;
@@ -84,7 +88,13 @@
   }
   #profile {
     gap: 1.5rem;
+  }
 
+  .text-container {
+    text-align: center;
+  }
+  .project-details-container {
+    max-width: 80%;
   }
   /* #contact,
   footer {
